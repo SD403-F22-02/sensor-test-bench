@@ -29,7 +29,7 @@ void main(void) {
     LCD_Move(1,0);  for (i=0; i<16; i++) LCD_Write(MSG2[i]);
     Wait_ms(100);
 
-    MS = 50;
+    MS = 50;    // speed
 
     while(1) {
         if(RB0) REF = 0;
@@ -44,6 +44,6 @@ void main(void) {
         PORTC = TABLE[STEP % 4];
         LCD_Move(0,8);  LCD_Out(REF, 5, 0);
         LCD_Move(1,8);  LCD_Out(STEP, 5, 0);
-        Wait_ms(30);
+        Wait_ms(MS);
     }
 }

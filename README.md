@@ -7,5 +7,6 @@ Code for PIC powered test bench.
 2. tmp/ folder
 3. build/ folder
 4. vscode
+5. Use Ctrl+Shift+B to run the "Build" command aka compile whatever file you're looking at 😎
 
 thats it 👍🏽👍🏽👍🏽
